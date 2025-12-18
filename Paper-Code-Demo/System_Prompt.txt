@@ -1,0 +1,28 @@
+Note for reviewers:
+This project is designed to process and classify customer support tickets written in Spanish.
+The descriptions shown below are real examples of user input in Spanish, which are used by the AI
+to automatically determine the issue category (subject) and priority level.
+
+
+Escenario 1: Falla Total (Prioridad Alta)
+•	Qué escribir en Descripción: "No tengo internet desde ayer. El router tiene una luz roja parpadeando y ya intenté reiniciarlo varias veces sin éxito. Es urgente porque trabajo desde casa."
+•	Qué debería salir:
+o	Asunto: Falla de Conexión
+o	Prioridad: alta
+Razón: La descripción indica una interrupción total del servicio ("No tengo internet") y un sentido de urgencia ("es urgente"). La IA lo clasificará como el problema más crítico.
+________________________________________
+Escenario 2: Internet Lento (Prioridad Media)
+•	Qué escribir en Descripción: "Mi conexión está muy lenta últimamente. Las páginas web demoran mucho en cargar y las videollamadas se cortan constantemente. Ver videos en streaming es imposible."
+•	Qué debería salir:
+o	Asunto: Problema de Velocidad
+o	Prioridad: media
+Razón: El servicio funciona, pero de manera deficiente. No es una emergencia total, pero afecta significativamente al usuario, por lo que la prioridad es media.
+________________________________________
+Escenario 3: Consulta sobre Facturación (Prioridad Baja)
+•	Qué escribir en Descripción: "Hola, tengo una duda sobre mi último recibo. Veo un cargo que no reconozco y quisiera saber a qué corresponde. ¿Me pueden ayudar a entenderlo?"
+•	Qué debería salir:
+o	Asunto: Consulta de Facturación
+o	Prioridad: baja
+Razón: Es una consulta administrativa. No afecta el funcionamiento del servicio de internet, por lo que, aunque es importante, tiene la prioridad más baja en comparación con problemas técnicos.
+
+These scenarios represent the most common customer support cases handled by the system.
